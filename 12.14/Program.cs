@@ -18,7 +18,8 @@
     return num1;
 }
 
-int num1, num2;
+int num1 ;  
+    int num2;
 
 Console.Write("Inserisci il primo numero: ");
 while (!int.TryParse(Console.ReadLine(), out num1))
